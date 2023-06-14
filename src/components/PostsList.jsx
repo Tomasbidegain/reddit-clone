@@ -26,7 +26,7 @@ const PostsList = () => {
   return (
     <div>
       {posts.map((post) => (
-        <Post key={post.created_utc} post={post} />
+        <Post key={post.id} post={post} />
       ))}
     </div>
   );

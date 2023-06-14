@@ -22,7 +22,7 @@ const Trends = () => {
       <h6 className={darkMode ? "text-white" : ""}>Tendencias</h6>
       <div className="d-flex gap-4 justify-content-lg-between justify-content-center flex-wrap">
         {trends.map((trend) => (
-          <CardTrend key={trend.created_utc} trend={trend} />
+          <CardTrend key={trend.id} trend={trend} />
         ))}
       </div>
     </div>
